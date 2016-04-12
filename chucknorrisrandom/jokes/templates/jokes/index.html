@@ -1,0 +1,15 @@
+<h1>Get a random Chuck Norris Joke!</h1>
+
+<a href="/jokes/random/">CLICK HERE</a>
+
+<h1>Get a random Chuck Norris joke based on a name!</h1>
+
+<a href="/jokes/randomname/">CLICK HERE</a>
+
+<h1>Saved jokes<h1>
+
+<ul>
+    {% for j in jokes %}
+        <li>{{ j }}</a></li>
+    {% endfor %}
+</ul>
